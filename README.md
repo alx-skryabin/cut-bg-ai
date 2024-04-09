@@ -1,5 +1,10 @@
 # cut-bg-ai
 
+## info
+
+Open [swagger](http://192.168.2.12:5002/docs). \
+See [example](https://carve.photos/).
+
 
 ## Available Scripts
 
