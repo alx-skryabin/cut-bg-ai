@@ -56,7 +56,7 @@ const UploadImg: React.FC = () => {
       {
         src &&
         <div className="as__upload-area_preview">
-          <img src={src} alt="view"/>
+          <img src={src} alt="preview"/>
           <span onClick={() => {
             if (!loading) setSrc(null)
           }}>

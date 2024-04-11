@@ -1,5 +1,8 @@
-const API_KEY = 'd78e5251ee178475b46aabcd4ca8625f9122a0c4a484f4e60e4f90d3e11cb2d5'
+// Заменяю переменную на динамическое добавление в локалку
+const API_KEY = '69ff0b29ba7205ce45ec85e2e94cae81f4b4238c3567e954ccb6a19d38ca1bde'
+const STORAGE_TOKEN = 'token'
 
 export {
-  API_KEY
+  API_KEY,
+  STORAGE_TOKEN
 }

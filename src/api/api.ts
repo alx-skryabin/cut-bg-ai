@@ -1,4 +1,4 @@
-import {API_KEY} from '../config'
+import {STORAGE_TOKEN} from '../config'
 
 export const API = {
   removeBG: async (b64: string) => {
@@ -16,10 +16,12 @@ export const API = {
     formData.append('type', 'auto')
     formData.append('crop_margin', '0px')
 
+    const token = window.localStorage.getItem(STORAGE_TOKEN) as string
+
     return await fetch('http://192.168.2.12:5002/api/removebg', {
       method: 'POST',
       headers: {
-        'x-api-key': API_KEY,
+        'x-api-key': token
       },
       body: formData
     })
