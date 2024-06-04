@@ -2,8 +2,9 @@
 
 ## info
 
-Open [swagger](http://192.168.2.12:5002/docs). \
-See [example](https://carve.photos/).
+Open [swagger](http://192.168.215.70:8004/docs). \
+See [example](https://carve.photos/).\
+Open source [git](https://github.com/OPHoperHPO/image-background-remove-tool/blob/master/docs/readme/ru.md).
 
 
 ## Available Scripts

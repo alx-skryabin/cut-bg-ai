@@ -1,4 +1,4 @@
-import {STORAGE_TOKEN} from '../config'
+import {CORP_URL, STORAGE_TOKEN} from '../config'
 
 export const API = {
   removeBG: async (b64: string) => {
@@ -18,7 +18,7 @@ export const API = {
 
     const token = window.localStorage.getItem(STORAGE_TOKEN) as string
 
-    return await fetch('http://192.168.2.12:5002/api/removebg', {
+    return await fetch(`${CORP_URL}/api/removebg`, {
       method: 'POST',
       headers: {
         'x-api-key': token
